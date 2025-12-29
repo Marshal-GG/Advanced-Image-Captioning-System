@@ -1,6 +1,6 @@
 # 📸 Image Caption Generator
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Python](https://img.shields.io/badge/Python-3.11.9-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.10-orange)
 ![Gradio](https://img.shields.io/badge/Gradio-Deployed-green)
 
@@ -42,7 +42,7 @@ To run this project locally on your machine:
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/Marshal-GG/Advanced-Image-Captioning-System.git
-    cd Image-Captioning-System
+    cd Advanced-Image-Captioning-System
     ```
 
 2.  **Install dependencies:**
@@ -67,22 +67,11 @@ To run this project locally on your machine:
 ## 📊 Results
 * **Metric:** The model effectiveness is evaluated using qualitative analysis (visual inspection).
 * **Sample Output:**
-    * *Input:* Image of a dog running on grass.
-    * 
-    * *Output:* "A dog is running through the grass."
+    * *Input:* Image of a 2 dogs running on grass.
+    * ![App Screenshot](demo_screenshot.png)
+    * *Output:* "Two dogs are playing together in the grass"
 
 ---
-
-## 📁 Directory Structure
-   ├── app.py # Gradio application for live demo 
-   ├── notebooks/ 
-   │ └── main.ipynb # Step-by-step training notebook 
-   ├── models/ 
-   │ └── trained_model.keras # Saved model (handled by Git LFS) 
-   ├── requirements.txt # List of python libraries used 
-   ├── vocab.pkl # Tokenizer vocabulary 
-   ├── wordtoix.pkl # Word-to-index mapping
-   └── README.md # Project documentation
 
 ## 🤝 Connect
 If you have any questions about this project or want to discuss Generative AI, feel free to connect!
