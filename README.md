@@ -41,7 +41,7 @@ To run this project locally on your machine:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Marshal-GG/Advanced-Image-Captioning-System.git](https://github.com/Marshal-GG/Advanced-Image-Captioning-System.git)
+    git clone https://github.com/Marshal-GG/Advanced-Image-Captioning-System.git
     cd Image-Captioning-System
     ```
 
@@ -55,7 +55,7 @@ To run this project locally on your machine:
     * Place them in the `src/` folder (or update paths in the notebook).
 
 4.  **Run the Training Notebook:**
-    * Open `notebooks/Image_Captioning_Training.ipynb` to see the data preprocessing, model training, and evaluation steps.
+    * Open `main.ipynb` to see the data preprocessing, model training, and evaluation steps.
 
 5.  **Run the App:**
     ```bash
@@ -74,15 +74,15 @@ To run this project locally on your machine:
 ---
 
 ## 📁 Directory Structure
-├── app.py # Gradio application for live demo 
-├── notebooks/ 
-│ └── main.ipynb # Step-by-step training notebook 
-├── models/ 
-│ └── trained_model.keras # Saved model (handled by Git LFS) 
-├── requirements.txt # List of python libraries used 
-├── vocab.pkl # Tokenizer vocabulary 
-├── wordtoix.pkl # Word-to-index mapping
-└── README.md # Project documentation
+   ├── app.py # Gradio application for live demo 
+   ├── notebooks/ 
+   │ └── main.ipynb # Step-by-step training notebook 
+   ├── models/ 
+   │ └── trained_model.keras # Saved model (handled by Git LFS) 
+   ├── requirements.txt # List of python libraries used 
+   ├── vocab.pkl # Tokenizer vocabulary 
+   ├── wordtoix.pkl # Word-to-index mapping
+   └── README.md # Project documentation
 
 ## 🤝 Connect
 If you have any questions about this project or want to discuss Generative AI, feel free to connect!
